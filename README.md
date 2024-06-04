@@ -1,1 +1,0 @@
-# ryadra2805.github.io
