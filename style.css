@@ -141,6 +141,11 @@ nav ul li a{
     text-align: center;
 }
 
+.link_drinks a, .link_food a {
+    text-decoration: none;
+    color:  rgb(190, 72, 17);
+}
+
 .about {
     background-color:rgba(207, 149, 74, 0.863);
     width: 100%;
@@ -149,12 +154,22 @@ nav ul li a{
     display: flex;
     margin: auto;
 }
+.aboutus_picture {
+    margin: auto;
+}
 
 .aboutus_text {
-    font-size: 30px;
-    margin: 0 auto;
+    margin: 0 15px;
     text-align: justify;
     width: 400px;
+}
+
+.aboutus_text p {
+    font-size: 25px;
+}
+
+.aboutus_text h1 {
+    font-size: 35px;
 }
 
 .aboutus_text a {
@@ -168,7 +183,7 @@ nav ul li a{
 
 footer {
     width: 100%;
-    min-height: 250px;
+    min-height: 100px;
     background-color: rgb(230, 230, 230);
 }
 
@@ -203,28 +218,34 @@ footer {
     }
     .menu_link {
         padding: 3%;
-        display: inline-block;
+        text-align: center;
     }
-    .link_container {
-        margin: 10px;
+    .link_drinks img {
+        object-fit: contain;
+    }
+    .link_food img {
+        object-fit: contain;
     }
     .link_drinks, .link_food {
         width: 350px;
-        height: 550px;
-        padding: 30px;
-        margin: 10px 10px 10px 25px;
+        height: 485px;
+        padding: 35px;
+        margin: 15px 5%;
+        font-size: 15px;
     }
     .about {
         display: block;
-        padding: 30px;
-        text-align: center;
+        padding: 20px;
     }
     .aboutus_picture {
         width: 70%;
+        margin: auto;
     }
     .aboutus_text {
+        margin: auto;
+    }
+    .aboutus_text p {
         font-size: 20px;
-        margin: 0 0 0 15px ;
     }
     .aboutus_text h1 {
         font-size: 23px;
@@ -265,28 +286,38 @@ footer {
     }
     .menu_link {
         padding: 3%;
-        display: inline-block;
+        text-align: center;
     }
     .link_container {
-        margin: 10px;
+        width: 80%;
+        margin-left: 8%;
+    }
+    .link_drinks img{
+        object-fit: contain;
+    }
+    .link_food img{
+        object-fit: contain;
     }
     .link_drinks, .link_food {
-        width: 350px;
-        height: 550px;
-        padding: 30px;
-        margin: 10px 10px 10px 25px;
+        width: 300px;
+        height: 415px;
+        padding: 35px;
+        margin: 15px 5%;
+        font-size: 12px;
     }
     .about {
         display: block;
-        padding: 30px;
-        text-align: center;
+        padding: 15px;
     }
     .aboutus_picture {
         width: 70%;
+        margin: auto;
     }
     .aboutus_text {
+        margin: auto;
+    }
+    .aboutus_text p {
         font-size: 15px;
-        margin: 0 0 0 15px ;
     }
     .aboutus_text h1 {
         font-size: 18px;
@@ -327,15 +358,39 @@ footer {
     }
     .menu_link {
         padding: 2%;
-        display: inline-block;
+        text-align: center;
     }
-    .link_container {
-        margin: 5px;
+    .link_drinks img{
+        object-fit: contain;
+    }
+    .link_food img{
+        object-fit: contain;
     }
     .link_drinks, .link_food {
-        width: 300px;
-        height: 500px;
+        width: 250px;
+        height: 345px;
         padding: 20px;
-        margin: 10px 10px 10px 30px;
+        margin: 15px 5%;
+        font-size: 10px;
+    }
+    .about {
+        display: block;
+        padding: 15px;
+    }
+    .aboutus_picture {
+        width: 70%;
+        margin: auto;
+    }
+    .aboutus_text {
+        margin: auto;
+    }
+    .aboutus_text p {
+        font-size: 12px;
+    }
+    .aboutus_text h1 {
+        font-size: 15px;
+    }
+    .aboutus_text a {
+        white-space: nowrap;
     }
 }
