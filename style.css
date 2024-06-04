@@ -5,26 +5,35 @@
     box-sizing: border-box;
     justify-items: center;
 }
-.container {
+
+.container-main {
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(rgba(234, 205, 163, 0.65), rgba(214, 174, 123, 0.65)), url(images/beans.jpg);
     background-size: cover;
     background-position: center;
 } 
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 nav {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: sandybrown;
 }  
+
 .coffee_logo{
     width: 150px;
     cursor: pointer;
     margin-left: 50px;
 }
+
 nav ul{
     list-style: none;
     width: 100%;
@@ -32,21 +41,23 @@ nav ul{
     padding-right: 60px;
     font-size: 30px;
 }
+
 nav ul li{
     display: inline-block;
     margin: 10px 20px;
 }
+
 nav ul li a{
     color: white;
     text-decoration: none;
 }
 
 .slideshow-container {
-    max-width: 1000px;
-    min-width: 25%;
+    width: 1000px;
     position: relative;
     margin: 25px auto;
     text-align: center;
+    padding: 5%;
 }
   
 
@@ -60,6 +71,7 @@ nav ul li a{
     top: 45%;
     right: 95%;
     padding: 16px;
+    margin: auto;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -107,20 +119,21 @@ nav ul li a{
     text-decoration: none;
     background-color: white;
     width: 100%;
-    min-height: 25%;
     justify-self: center;
     justify-content: center;
     padding: 5%;
 }
 
 .link_container {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
 }
 
 .link_drinks, .link_food {
     display: inline-block;
+    width: 400px;
+    height: 550px;
     margin: 20px 3%;
     background-color: wheat;
     border: 3px solid black;
@@ -131,7 +144,7 @@ nav ul li a{
 .about {
     background-color:rgba(207, 149, 74, 0.863);
     width: 100%;
-    min-height: 25%;
+    min-height: fit-content;
     padding: 50px;
     display: flex;
     margin: auto;
@@ -157,4 +170,62 @@ footer {
     width: 100%;
     min-height: 250px;
     background-color: rgb(230, 230, 230);
+}
+
+@media only screen and (max-width: 600px) {
+    .slideshow-container {
+        width: 100%;
+        max-height: 80%;
+        margin: 25px 5px;
+        padding: 5%;
+    }
+    .prev, .next {
+        padding: 10px;
+    }
+    .slideshow-container img {
+        width: 95%;
+        height: 90%;
+        margin-right: 2%;
+    }
+    .menu_link {
+        padding: 3%;
+    }
+    .link_container {
+        margin: 10px;
+    }
+    .link_drinks, .link_food {
+        width: 350px;
+        height: 550px;
+        padding: 30px;
+        margin: 10px 10px 10px 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .slideshow-container {
+        width: 100%;
+        max-height: 80;
+        margin: 25px 5px;
+        padding: 5%;
+    }
+    .prev, .next {
+        padding: 8px;
+    }
+    .slideshow-container img {
+        width: 95%;
+        height: 90%;
+        margin-right: 2%;
+    }
+    .menu_link {
+        padding: 2%;
+    }
+    .link_container {
+        margin: 5px;
+    }
+    .link_drinks, .link_food {
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        margin: 10px 10px 10px 30px;
+    }
 }
