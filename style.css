@@ -55,9 +55,9 @@ nav ul li a{
 .slideshow-container {
     width: 1000px;
     position: relative;
-    margin: 25px auto;
+    margin: 10px auto;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
   
 
@@ -93,7 +93,7 @@ nav ul li a{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px 25px;
+    margin: 0 2px 15px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -172,23 +172,38 @@ footer {
     background-color: rgb(230, 230, 230);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
+    nav {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .coffee_logo {
+        margin: 0;
+    }
+    nav ul {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        white-space: nowrap;
+        margin-left: 4%;
+    }
     .slideshow-container {
         width: 100%;
-        max-height: 80%;
-        margin: 25px 5px;
-        padding: 5%;
+        margin: 0 auto;
+        padding: 2%;
     }
     .prev, .next {
         padding: 10px;
     }
     .slideshow-container img {
         width: 95%;
-        height: 90%;
         margin-right: 2%;
+        object-fit: contain;
     }
     .menu_link {
         padding: 3%;
+        display: inline-block;
     }
     .link_container {
         margin: 10px;
@@ -199,25 +214,120 @@ footer {
         padding: 30px;
         margin: 10px 10px 10px 25px;
     }
+    .about {
+        display: block;
+        padding: 30px;
+        text-align: center;
+    }
+    .aboutus_picture {
+        width: 70%;
+    }
+    .aboutus_text {
+        font-size: 20px;
+        margin: 0 0 0 15px ;
+    }
+    .aboutus_text h1 {
+        font-size: 23px;
+    }
+    .aboutus_text a {
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .coffee_logo {
+        margin: 0;
+    }
+    nav ul {
+        font-size: 15px;
+        text-align: center;
+        margin: auto;
+        white-space: nowrap;
+        margin-left: 4%;
+    }
+    .slideshow-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2%;
+    }
+    .prev, .next {
+        padding: 10px;
+    }
+    .slideshow-container img {
+        width: 95%;
+        margin-right: 2%;
+        object-fit: contain;
+    }
+    .menu_link {
+        padding: 3%;
+        display: inline-block;
+    }
+    .link_container {
+        margin: 10px;
+    }
+    .link_drinks, .link_food {
+        width: 350px;
+        height: 550px;
+        padding: 30px;
+        margin: 10px 10px 10px 25px;
+    }
+    .about {
+        display: block;
+        padding: 30px;
+        text-align: center;
+    }
+    .aboutus_picture {
+        width: 70%;
+    }
+    .aboutus_text {
+        font-size: 15px;
+        margin: 0 0 0 15px ;
+    }
+    .aboutus_text h1 {
+        font-size: 18px;
+    }
+    .aboutus_text a {
+        white-space: nowrap;
+    }
 }
 
 @media only screen and (max-width: 400px) {
+    nav {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .coffee_logo {
+        margin: 0;
+    }
+    nav ul {
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+        white-space: nowrap;
+        margin-left: 4%;
+    }
     .slideshow-container {
         width: 100%;
-        max-height: 80;
-        margin: 25px 5px;
-        padding: 5%;
+        margin: 0 auto;
+        padding: 2%;
     }
     .prev, .next {
         padding: 8px;
     }
     .slideshow-container img {
         width: 95%;
-        height: 90%;
         margin-right: 2%;
+        object-fit: contain;
     }
     .menu_link {
         padding: 2%;
+        display: inline-block;
     }
     .link_container {
         margin: 5px;
