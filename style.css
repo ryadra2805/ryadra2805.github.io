@@ -307,6 +307,12 @@ footer a:hover {
     .aboutus_text a {
         white-space: nowrap;
     }
+    .fa-brands {
+        font-size: 1.8em;
+    }
+    .footer_link {
+        font-size: 1.1em;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -379,6 +385,12 @@ footer a:hover {
     .aboutus_text a {
         white-space: nowrap;
     }
+    .fa-brands {
+        font-size: 1.7em;
+    }
+    .footer_link {
+        font-size: 1.0em;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -446,5 +458,11 @@ footer a:hover {
     }
     .aboutus_text a {
         white-space: nowrap;
+    }
+    .fa-brands {
+        font-size: 1.5em;
+    }
+    .footer_link {
+        font-size: .8em;
     }
 }
