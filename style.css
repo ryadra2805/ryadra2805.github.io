@@ -4,6 +4,9 @@
     font-family:'Courier New', Courier, monospace;
     box-sizing: border-box;
     justify-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 html {
     scroll-behavior: smooth;
@@ -56,6 +59,12 @@ nav ul li a {
     position: relative;
     color: white;
     text-decoration: none;
+}
+
+.hov_und_ani{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .hov_und_ani::after {
@@ -196,6 +205,15 @@ nav ul li a {
     color:  rgb(166,106,46);
     margin: 1%;
 }
+.link_drinks h1, .link_food h1 {
+    color:  rgb(166,106,46);
+    margin: 1%;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 .link_drinks a:hover, .link_food a:hover {
     text-decoration: underline;
     color:  rgb(166,106,46);
@@ -230,6 +248,9 @@ nav ul li a {
 
 .aboutus_text h1 {
     font-size: 35px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .aboutus_text a {
