@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+body {
+    height: 3000px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* FIRST HALF */
+.pastries_title1 {
+    background-image: url(Images/.jpg);
+    background-color: rgb(166,106,46);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 500px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+.pastries_title1 h1 {
+    font-size: 35px;
+    margin: 130px 0px 10px 0px;
+    height: 25px;
+}
+.pastries_title1 p {
+    font-size: 18px;
+    height: 10px;
+}
+.choices img {
+    border-radius: 20px;
+    border: 2px solid wheat;
+}
+.choices1:hover { 
+    transform: scale(1.1);
+}
+.choices2:hover { 
+    transform: scale(1.1);
+}
+.choices3:hover { 
+    transform: scale(1.1);
+}
+.choices4:hover { 
+    transform: scale(1.1);
+}
+/* SECOND HALF */
+.pastries_title2 {
+    background-image: url(Images/background_menu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 500px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    height: 5000px;
+}
+.pastries_title2 a {
+    text-decoration: none;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    background-color: rgb(166,106,46);
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.pastries_title2 a:hover {
+    background-color: wheat;
+    color: rgb(166,106,46);
+}
+.nav_buttons {
+    margin: 50px 0px 50px 950px;
+}
+
+.welcome {
+    text-align: center;
+    text-shadow: 0px 0px 30px black;
+    height: 680px;
+}
+.welcome h1 {
+    padding-top: 250px;
+    font-size: 50px;
+    height: 25px;
+}
+.welcome p {
+    font-size: 20px;
+    margin: 0px 50px 0px 50px;
+    text-shadow: 0px 0px 30px black;
+    position: center;
+}
+.pastries p {
+    font-size: 20px;
+    height: fit-content;
+    width: 1160px;
+    padding-left: 120px;
+    text-shadow: 0px 0px 30px black;
+}
+.pastries_title2 h2 {
+    margin: 275px 0px 0px 0px;
+    height: 25px;
+    padding-left: 120px;
+    text-shadow: 0px 0px 30px black;
+    font-size: 40px;
+}
+.section {
+    display: flex;
+    width: 1200px;
+    margin-top: 10px 0px 20px 0px;
+}
+.for_section {
+    display: flex;
+    margin: 10px 0px 0px 110px;
+    width: 500px;
+    background-color: rgb(166,106,46);
+    border-radius: 20px;
+    border: 2px solid wheat;
+    padding: 30px 0px 30px 30px;
+}
+.for_pic img{
+    border-radius: 20px;
+}
+.for_text {
+    margin-left: 20px;
+    width: 500px;
+}
+.for_text h1 {
+    font-size: 25px;
+    height: 12px;
+    margin-top: 10px;
+}
+.for_text h5 {
+    font-size: 15px;
+    height: 12px;
+    margin-top: 10px;
+}
+.for_text h6 {
+    font-size: 12px;
+    height: 5px;
+}
+.for_text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    height: 10px;
+}
+.for_text a {
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 10px;
+    background-color: rgb(166,106,46);
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    margin-left: 225px;
+}
+.back_buttons nav {
+    margin-top: 200px;
+    margin-left: 525px;   
+}
