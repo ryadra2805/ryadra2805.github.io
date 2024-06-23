@@ -1,3 +1,8 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 html {
     scroll-behavior: smooth;
     scroll-padding: 10rem;
@@ -11,6 +16,11 @@ body {
     height: 3000px;
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, a {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 /* FIRST HALF */
 .collapsible-menu {
