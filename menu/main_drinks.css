@@ -197,7 +197,116 @@ body {
     margin-top: 200px; 
 }
 
-
+@media only screen and (max-width: 992px) { 
+    
+    html {
+        scroll-padding: 5rem; 
+    }
+  
+    body {
+        flex-direction: column; 
+        background-size: cover; 
+    }
+  
+    
+    .hamburger {
+        top: 10px; 
+        left: 10px; 
+    }
+  
+    
+    .drinks_title1 {
+        position: fixed; 
+        width: 95%; 
+        max-height: 100vh; 
+    }
+    .drinks_title1 h1 {
+        font-size: 20px; 
+        margin: 50px 0 10px 0;
+    }
+    .drinks_title1 p {
+        font-size: 14px; 
+    }
+  
+    
+    .choices img {
+        width: 80%; 
+        height: auto;
+    }
+  
+    
+    .drinks_title2 {
+        margin-left: 0; 
+        width: 100%; 
+    }
+    .drinks_title2 h2 {
+        margin-left: 15px; 
+    }
+    .drinks_title2 a {
+        display: block; 
+        margin: 10px auto; 
+        width: fit-content; 
+    }
+  
+    
+    .welcome {
+        height: auto; 
+    }
+    .welcome h1 {
+        font-size: 30px;
+        padding-top: 150px;
+    }
+    .welcome p {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+  
+    
+    .bases p {
+        width: 100%; 
+        padding-left: 15px;
+    }
+  
+    
+    .section {
+        flex-direction: column; 
+        width: 90%; 
+        margin-top: 20px; 
+    }
+    .for_section {
+        width: 100%;
+        margin-left: 0;
+    }
+    .for_pic img {
+        width: 200px; 
+        height: auto;
+    }
+    .for_text {
+        width: 100%; 
+        margin-left: 5%;
+    }
+    .for_text h1 {
+        font-size: 30px;
+    }
+    .for_text h5 {
+        font-size: 14px;
+    }
+    .for_text h6 {
+        font-size: 15px;
+    }
+    .for_text h3 {
+        font-size: 25px;
+    }
+    .for_text a {
+        margin-left: 15px;
+    }
+  
+    
+    .nav_buttons,
+    .back_buttons {
+        flex-direction: column; 
+    }
+}
 
 @media  only screen and (max-width: 768px) {
     
@@ -399,7 +508,7 @@ body {
         margin-left: 5%;
     }
     .for_text h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
     .for_text h5 {
         font-size: 14px;
