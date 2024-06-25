@@ -243,9 +243,9 @@ nav ul li a {
 }
 
 .aboutus_text {
-    margin: 0 15px;
     text-align: justify;
-    width: 400px;
+    width: 550px;
+    margin-right: auto;
 }
 
 .aboutus_text p {
