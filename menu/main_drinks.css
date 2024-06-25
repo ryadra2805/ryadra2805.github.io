@@ -220,6 +220,9 @@ h1, a {
         flex-direction: column; 
         background-size: cover; 
     }
+    p {
+        width: 100%;
+    }
   
     
     .hamburger {
@@ -271,24 +274,30 @@ h1, a {
     }
     .welcome p {
         margin-top: 50px;
+        margin-left: 0;
         font-size: 16px;
     }
   
     
     .bases p {
-        width: 100%; 
-        padding-left: 15px;
+        width: 75%; 
+        margin-top: 30px;
+        margin-right: 10px;
+        font-size: 16px;
     }
   
     
     .section {
         flex-direction: column; 
         width: 90%; 
-        margin-top: 20px; 
+        margin-top: 20px;
+        margin-left: 20px;
+        align-items: center; 
     }
     .for_section {
         width: 100%;
         margin-left: 0;
+        padding-right: 10px;
     }
     .for_pic img {
         width: 200px; 
@@ -306,6 +315,7 @@ h1, a {
     }
     .for_text h6 {
         font-size: 15px;
+        margin-top: 65px;
     }
     .for_text h3 {
         font-size: 25px;
