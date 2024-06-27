@@ -75,7 +75,7 @@ h1, h2, h3 {
 .hero{
     background-color:white;
     overflow: hidden;
-    height: 100vh;
+    height: 100%;
     padding-top: 100px;
 }
 .heading h1{
@@ -220,12 +220,14 @@ img{
     }
     .hero{
         margin: 0px;
+        max-height: fit-content;
     }
     .container{
         width: 100%;
         flex-direction: column;
         margin: 0px;
         padding: 0px, 40px;
+        max-height: fit-content;
     }
     .hero-content{
         width:100%;
